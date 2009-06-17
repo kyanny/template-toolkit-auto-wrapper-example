@@ -1,0 +1,14 @@
+[%-
+  stylesheets.push('inner.css')
+-%]
+
+<h2>[% template.h2 | html %]</h2>
+<ul>
+  <li>list item1</li>
+  <li>list item2</li>
+</ul>
+<!-- inner.tt -->
+
+[%- content -%]
+
+<!-- inner.tt -->

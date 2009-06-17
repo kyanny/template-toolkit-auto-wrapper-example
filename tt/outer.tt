@@ -1,0 +1,17 @@
+<html>
+<head>
+[% FOR stylesheet IN stylesheets -%]
+<link rel="stylesheet" href="[% stylesheet | html %]" type="text/css" />
+[% END -%]
+<title>[% template.title | html %]</title>
+</head>
+<body>
+
+<h1>[% template.h1 | html %]</h1>
+<!-- outer.tt -->
+
+[%- content -%]
+
+<!-- outer.tt -->
+</body>
+</html>

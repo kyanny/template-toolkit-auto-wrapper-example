@@ -1,0 +1,11 @@
+[%- META
+   title = 'Hello World'
+   h1 = 'Hello World (h1)'
+   h2 = 'Hello World (h2)'
+-%]
+[%-
+  stylesheets = ['index.css']
+-%]
+
+This is index.tt.
+[% message | html %]
